@@ -75,7 +75,7 @@ auth_pass 1111
 
 unicast_peer {
 
-10.0.2.1
+10.0.2.17
 
 }
 
@@ -88,10 +88,16 @@ virtual_ipaddress {
 }
 
 
+
+
+
+
+
+
 ```
 2. Backup-нода:
 ```
-rrp_instance main {
+vrrp_instance main {
 
 state BACKUP
 
@@ -113,7 +119,7 @@ auth_pass 1111
 
 unicast_peer {
 
-10.0.2.1
+10.0.2.16
 
 }
 
@@ -124,6 +130,7 @@ virtual_ipaddress {
 }
 
 }
+
 
 
 ```
