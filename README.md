@@ -131,9 +131,12 @@ virtual_ipaddress {
 
 }
 
-
-
 ```
+1. Master-state:
+- ![9_06-master_state](https://github.com/RybakEgor/9-06_Keepalived_vrrp/blob/main/img/9_06-master_state.png)
+2. Backup-state:
+- ![9_06-backup_state](https://github.com/RybakEgor/9-06_Keepalived_vrrp/blob/main/img/9_06-backup_state.png)
+
 ## Дополнительные задания со звёздочкой*
 
 Эти задания дополнительные. Их можно не выполнять. На зачёт это не повлияет. Вы можете их выполнить, если хотите глубже разобраться в материале.
